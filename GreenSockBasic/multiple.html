@@ -1,0 +1,393 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>多个对象运动 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="sequence.html" />
+    
+    
+    <link rel="prev" href="callfunction.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    GreenSock简明教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    GreenSock基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="select.html">
+            
+                <a href="select.html">
+            
+                    
+                    选择元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="animate.html">
+            
+                <a href="animate.html">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="easing.html">
+            
+                <a href="easing.html">
+            
+                    
+                    缓动曲线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="callfunction.html">
+            
+                <a href="callfunction.html">
+            
+                    
+                    回调方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5" data-path="multiple.html">
+            
+                <a href="multiple.html">
+            
+                    
+                    多个对象运动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="sequence.html">
+            
+                <a href="sequence.html">
+            
+                    
+                    链式动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="control.html">
+            
+                <a href="control.html">
+            
+                    
+                    动画控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../GreenSockAdvanced/">
+            
+                <a href="../GreenSockAdvanced/">
+            
+                    
+                    GreenSock进阶
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../GreenSockAdvanced/3dtransform.html">
+            
+                <a href="../GreenSockAdvanced/3dtransform.html">
+            
+                    
+                    3D效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >多个对象运动</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x8FD0;&#x52A8;">&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x8FD0;&#x52A8;</h1>
+<h3 id="staggered&#x65B9;&#x6CD5;">staggered()&#x65B9;&#x6CD5;</h3>
+<p>&#x5728;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x5B83;&#x6765;&#x540C;&#x65F6;&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x6267;&#x884C;&#x540C;&#x4E00;&#x4E2A;&#x52A8;&#x753B;&#x6548;&#x679C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6709;&#x4EC0;&#x4E48;&#x65B9;&#x6CD5;&#x5462;&#xFF1F;</p>
+<p>&#x4E5F;&#x8BB8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<strong>TimelineLite.to()&#x65B9;&#x6CD5;</strong>&#x4E00;&#x4E2A;&#x4E00;&#x4E2A;&#x7684;&#x6765;&#x6267;&#x884C;&#x3002;&#x8FD9;&#x6837;&#x867D;&#x7136;&#x53EF;&#x4EE5;&#x8FBE;&#x5230;&#x76EE;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x591F;&#x4F18;&#x96C5;&#x3002;greensock&#x7ED9;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;staggered()&#x8FD9;&#x4E00;&#x65B9;&#x6CD5;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x5148;&#x6765;&#x770B;&#x770B;staggerFrom&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x7684;&#x8BED;&#x6CD5;&#xFF1A;</p>
+<pre><code>TweenMax.staggerFrom( targets:Array, duration:Number, vars:Object, stagger:Number, onCompleteAll:Function, onCompleteAllParams:Array, onCompleteAllScope:* ) :
+</code></pre><p>TweenMax.staggerFrom(targets:&#x76EE;&#x6807;&#x5143;&#x7D20;&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;,duration:&#x52A8;&#x753B;&#x6267;&#x884C;&#x65F6;&#x95F4;,vars:&#x52A8;&#x753B;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x6BD4;&#x5982;&#x4F4D;&#x79FB;&#x3001;&#x653E;&#x5927;&#x7F29;&#x5C0F;&#x4EE5;&#x53CA;&#x5EF6;&#x8FDF;&#x7B49;,stagger:&#x8868;&#x793A;&#x76EE;&#x6807;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x52A8;&#x753B;&#x5EF6;&#x8FDF;&#x6267;&#x884C;&#x7684;&#x65F6;&#x95F4;,onCompleteAll:&#x6240;&#x6709;&#x7684;&#x5E8F;&#x5217;&#x52A8;&#x753B;&#x5B8C;&#x6210;&#x540E;&#x7684;&#x56DE;&#x8C03;&#x65B9;&#x6CD5;,onCompleteAllParams:&#x4F20;&#x53C2;&#x6570;&#x7ED9;onCompleteAll&#x65B9;&#x6CD5;)&#x3002;</p>
+<p>&#x5F53;&#x7136;&#x8FD9;&#x4E2A;staggerFrom&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x4F7F;&#x7528;TweenMax&#x6765;&#x8C03;&#x7528;&#x3002;&#x6211;&#x4EEC;&#x6765;&#x770B;GreenSock&#x5B98;&#x65B9;&#x7F51;&#x7AD9;&#x7684;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#xFF1A;</p>
+<p></p><p data-height="300" data-theme-id="17491" data-slug-hash="vXqEPo" data-default-tab="js,result" data-user="janily" data-embed-version="2" data-pen-title="vXqEPo" class="codepen">See the Pen <a href="http://codepen.io/janily/pen/vXqEPo/" target="_blank">vXqEPo</a> by janily (<a href="http://codepen.io/janily" target="_blank">@janily</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>&#x4ECE;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x4F7F;&#x7528;stagger()&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x64CD;&#x4F5C;&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x6765;&#x4EA7;&#x751F;&#x52A8;&#x753B;&#x6548;&#x679C;&#xFF0C;&#x4EC5;&#x4EC5;&#x53EA;&#x9700;&#x8981;&#x4E00;&#x53E5;&#x4EE3;&#x7801;&#x65B9;&#x4FBF;&#x597D;&#x4F7F;&#x3002;</p>
+<h3 id="staggerfrom&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x9AD8;&#x7EA7;&#x6280;&#x5DE7;circle">staggerFrom()&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x9AD8;&#x7EA7;&#x6280;&#x5DE7;circle</h3>
+<p>&#x50CF;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x80FD;&#x4E00;&#x6B21;&#x8D4B;&#x4E88;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x5982;x:100, rotation:90&#x3002;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x4E00;&#x6B21;&#x6027;&#x8BA9;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x80FD;&#x968F;&#x673A;&#x7684;&#x968F;&#x6307;&#x5B9A;&#x7684;&#x503C;&#x6765;&#x8FD0;&#x52A8;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5230;taggerFrom()&#x65B9;&#x6CD5;&#x4E2D;&#x7684;circle&#x6765;&#x8FBE;&#x5230;&#x76EE;&#x7684;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;&#x6240;&#x793A;&#xFF1A;</p>
+<p></p><p data-height="395" data-theme-id="17491" data-slug-hash="bEarQM" data-default-tab="result" data-user="janily" data-embed-version="2" data-pen-title="bEarQM" class="codepen">See the Pen <a href="http://codepen.io/janily/pen/bEarQM/" target="_blank">bEarQM</a> by janily (<a href="http://codepen.io/janily" target="_blank">@janily</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>&#x5728;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;&#x4E86;<strong>cycle</strong>&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x6765;&#x8FBE;&#x5230;&#x8FD9;&#x4E00;&#x76EE;&#x7684;&#x3002;</p>
+<pre><code> cycle:{
+    x:[-100,100], 
+    &#xFF5D;
+</code></pre><p>&#x6211;&#x4EEC;&#x5728;<strong>cycle</strong>&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x8D4B;&#x4E88;&#x7ED9;X(&#x5373;transform&#x4E2D;&#x7684;translateX),&#x5728;&#x5B9E;&#x9645;&#x4EE3;&#x7801;&#x8FD0;&#x884C;&#x4E2D;&#xFF0C;stagger()&#x4F1A;&#x4F9D;&#x6B21;&#x4ECE;&#x6570;&#x7EC4;&#x4E2D;&#x53D6;&#x503C;&#x8D4B;&#x4E88;&#x7ED9;&#x5143;&#x7D20;&#xFF0C;&#x4E0D;&#x65AD;&#x7684;&#x5FAA;&#x73AF;&#x3002;&#x8FD9;&#x5728;&#x6267;&#x884C;&#x591A;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x52A8;&#x753B;&#x7684;&#x65F6;&#x5019;&#x975E;&#x5E38;&#x65B9;&#x4FBF;&#x3002;</p>
+<p>&#x4E0B;&#x4E00;&#x7AE0;&#x8282;&#x5C06;&#x6765;&#x4ECB;&#x7ECD;GreenSock&#x4E2D;&#x5F88;&#x5F3A;&#x5927;&#x7684;&#x94FE;&#x5F0F;&#x52A8;&#x753B;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="callfunction.html" class="navigation navigation-prev " aria-label="Previous page: 回调方法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="sequence.html" class="navigation navigation-next " aria-label="Next page: 链式动画">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"多个对象运动","level":"1.2.5","depth":2,"next":{"title":"链式动画","level":"1.2.6","depth":2,"path":"GreenSockBasic/sequence.md","ref":"GreenSockBasic/sequence.md","articles":[]},"previous":{"title":"回调方法","level":"1.2.4","depth":2,"path":"GreenSockBasic/callfunction.md","ref":"GreenSockBasic/callfunction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GreenSockBasic/multiple.md","mtime":"2016-10-31T02:02:24.443Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-31T07:56:21.179Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
