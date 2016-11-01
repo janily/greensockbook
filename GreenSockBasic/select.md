@@ -4,7 +4,7 @@
 
 为了方便演示代码，统一使用**codepen**这个在线的代码编辑平台来进行demo演示。
 
-本教程主要以TweenMax这个全功能的js文件为基础，因为它包括了GreenSock动画平台的所有核心的功能。还需要引入jquery来选择和操作DOM。
+本教程主要以TweenMax这个全功能的js文件为基础，它包括了GreenSock动画平台的所有核心的功能。还需要引入jquery来选择和操作DOM。
 
 ### 开始
 
