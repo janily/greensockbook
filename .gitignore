@@ -1,2 +1,5 @@
 # 本地预览目录不上传
 _book
+
+# node_modules
+node_modules
