@@ -17,9 +17,9 @@ TweenLite.fromTo($box, 2, {x: '-=200px'}, {x: 150, ease: Bounce.easeOut});
 <p data-height="300" data-theme-id="17491" data-slug-hash="JRQoNv" data-default-tab="js,result" data-user="janily" data-embed-version="2" data-pen-title="JRQoNv" class="codepen">See the Pen <a href="http://codepen.io/janily/pen/JRQoNv/">JRQoNv</a> by janily (<a href="http://codepen.io/janily">@janily</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-可以看到，加了曲线之后，动画有了一个弹动的效果。
+可以看到，加了曲线之后，动画有了弹动的效果。
 
-在实际开发中，开发动画效果一般都会在动画过程中做一些其它的操作，这个时候就要用到回调函数了。GreenSock提供了在动画各个阶段的回调方法，使用起来非常方便。
+在实际开发中，开发动画效果都会在动画过程中做一些其它的操作，这个时候就要用到回调函数了。TweenMax提供了在动画各个阶段的回调方法，使用起来非常方便。
 
 请看下一章节。
 
