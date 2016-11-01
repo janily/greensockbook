@@ -1,6 +1,6 @@
 # 3D效果
 
-在平时的动效开发中，为了是动效具有立体的效果，一般会用到CSS3中的3D transform这一属性。在GreenSock中也提供了3D transform功能，支持CSS3D的全部属性，使用起来比CSS3好用多了。
+在平时的动效开发中，为了是动效具有立体的效果，一般会用到CSS3中的3D transform这一属性。在GreenSock中也提供了3D transform功能，支持CSS3D的全部属性，使用起来比CSS3更加方便。
 
 下面来看看它的一些使用方法。
 
