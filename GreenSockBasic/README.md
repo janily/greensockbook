@@ -6,7 +6,7 @@
 
 ![](http://i3.tietuku.com/6f5c0e8054dc8d27.png)
 
-这里我们引入的是TweenMax这个全功能的js文件，它包括了GreenSock动画平台的所有核心的功能。
+建议在开发中使用TweenMax这个全功能的js文件，它包括了GreenSock动画平台的所有核心的功能。
 
 下面就开始GreenSock之旅吧。
 
