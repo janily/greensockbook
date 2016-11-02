@@ -8,7 +8,7 @@ TweenMax提供了下面这些运动曲线：
 
 ![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f997n29r9vg30nj0l6n5p.gif)
 
-下面我们添加一个bounce曲线，看看实际效果(点击右下角的return按钮查看效果)：
+下面给动画添加一个bounce曲线，看看实际效果(点击右下角的return按钮查看效果)：
 
 ```
 TweenLite.fromTo($box, 2, {x: '-=200px'}, {x: 150, ease: Bounce.easeOut});
@@ -21,6 +21,6 @@ TweenLite.fromTo($box, 2, {x: '-=200px'}, {x: 150, ease: Bounce.easeOut});
 
 在实际开发中，开发动画效果都会在动画过程中做一些其它的操作，这个时候就要用到回调函数了。TweenMax提供了在动画各个阶段的回调方法，使用起来非常方便。
 
-请看下一章节。
+关于动画回调的相关方法请看下一章节。
 
 

@@ -2,9 +2,9 @@
 
 在平时的动效开发中，为了是动效具有立体的效果，一般会用到CSS3中的3D transform这一属性。在GreenSock中也提供了3D transform功能，支持CSS3D的全部属性，使用起来比CSS3更加方便。
 
-下面来看看它的一些使用方法。
+下面来看看它的使用方法。
 
-开始之前首先要理解greensock中的 perspective 和 transformPerspective 两个属性。它们是greensock中运行的基础，因为是它们才能使元素具有一个3D空间透视的表现能力。
+开始之前首先要理解greensock中的perspective和transformPerspective两个属性。它们是greensock中运行的基础，使用它们才能使元素具有一个3D空间透视的表现能力。
 
 下面是分别使用transformPerspective和没用transformPerspective的实例：
 
