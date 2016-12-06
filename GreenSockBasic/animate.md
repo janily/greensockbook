@@ -12,7 +12,7 @@
 ```
 TweenLite.to($box, 0.7, {left: 0});
 ```
-上面的代码会在0.7秒之内把$box元素从CSS中定义的位置移动到body的边缘。如下所示(**点击右下角的return按钮，可以重新运行代码观看效果**)：
+上面的代码会在0.7秒之内把$box元素从CSS中定义的位置移动到body的边缘。如下所示(**点击右下角的rerun按钮，可以重新运行代码观看效果**)：
 
 <p data-height="300" data-theme-id="17491" data-slug-hash="meypPB" data-default-tab="css,result" data-user="janily" data-embed-version="2" data-pen-title="meypPB" class="codepen">See the Pen <a href="http://codepen.io/janily/pen/meypPB/">meypPB</a> by janily (<a href="http://codepen.io/janily">@janily</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

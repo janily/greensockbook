@@ -23,7 +23,7 @@ var $box = $('#box');
 
 上面可以看到我们使用了**jquery**来选择需要操作的DOM。当然你也可以使用javascript原生提供的DOM操作方法来选择DOM节点。
 
-接下来就可以是使用GreenSock中的**TweenMax.js**提供的各种方来使它动起来，请看下一章节。
+接下来就可以是使用GreenSock中提供的各种API方来使它动起来，请看下一章节。
 
 
 
